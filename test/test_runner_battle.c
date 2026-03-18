@@ -248,7 +248,7 @@ static bool32 IsAITest(void)
 static bool32 IsAIDoublesTest(void)
 {
     
-    return (IsAITest() && (GetBattleTest()->type != BATTLE_TEST_AI_SINGLES);
+    return (IsAITest() && (GetBattleTest()->type != BATTLE_TEST_AI_SINGLES));
 }
 
 static u32 BattleTest_EstimateCost(void *data)
