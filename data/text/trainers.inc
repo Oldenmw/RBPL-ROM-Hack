@@ -1,48 +1,24 @@
-Route102_Text_CalvinIntro:
-	.string "If you have POKéMON with you, then\n"
-	.string "you're an official POKéMON TRAINER!\l"
-	.string "You can't say no to my challenge!$"
+Route102_Text_DustIntro:
+	.string "I'm the best trainer in this\n"
+	.string "entire region!\l"
+	.string "You have to battle me!$"
 
-Route102_Text_CalvinDefeated:
-	.string "..."
+Route102_Text_DustDefeated:
+	.string "...$"
 
-Route102_Text_CalvinPostBattle:
-	.string "I didn't want to win anyway."
+Route102_Text_DustPostBattle:
+	.string "I didn't want to win anyway.$"
 
-Route102_Text_CalvinRegister:
-	.string "I've been working hard at this since\n"
-	.string "I saw you before.\p"
-	.string "I'd like to battle you again, so can\n"
-	.string "you register me in your POKéNAV?$"
+Route102_Text_LeonardoIntro:
+	.string "Tempted by that item, are you?\n"
+	.string "We'll see if it was worth it!$"
 
-Route102_Text_CalvinRegisterShort:
-	.string "I'd like to battle you again, so can\n"
-	.string "you register me in your POKéNAV?$"
+Route102_Text_LeonardoDefeated:
+	.string "Looks like my turtles could use\n"
+	.string "a bit more training$"
 
-Route102_Text_CalvinRematchIntro:
-	.string "Ever since I lost to you, I desperately\n"
-	.string "trained my POKéMON.\l"
-	.string "You can't say no to my challenge!$"
-
-Route102_Text_CalvinRematchDefeated:
-	.string "Arrgh, I lost…\n"
-	.string "Is my training method not right?$"
-
-Route102_Text_CalvinRematchPostBattle:
-	.string "If you're going to get stronger,\n"
-	.string "I'll get stronger, too.$"
-
-Route102_Text_AllenIntro:
-	.string "Did you just become a TRAINER?\n"
-	.string "We're both beginners!$"
-
-Route102_Text_AllenDefeated:
-	.string "I called you because I thought\n"
-	.string "I could beat you…$"
-
-Route102_Text_AllenPostBattle:
-	.string "I haven't won once yet…\n"
-	.string "I wish I would win soon…$"
+Route102_Text_LeonardoPostBattle:
+	.string "I hope that item was worth it.$"
 
 Route102_Text_RickIntro:
 	.string "Hahah! Our eyes met!\n"

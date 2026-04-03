@@ -95,7 +95,48 @@ Level: 2
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fake Tears
 
+=== TRAINER_LEONARDO ===
+Name: Leonardo
+Class: Count
+Pic: Count
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
 
+Squirtle @ Damp Rock
+Level: 8
+Ability: Drizzle
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Water Pulse
+- Tackle
+- Withdraw
+- Bite
+
+Turtwig @ Leftovers
+Level: 8
+Ability: Overgrow
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Leech Seed
+- Mega Drain
+- Bite
+- Mud-Slap
+
+Tirtouga @ Rindo Berry
+Level: 9
+Ability: Swift Swim
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Aqua Jet
+- Smack Down
+- Mud Shot 
+
+Chewtle
+Level: 8
+Ability: Strong Jaw
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Bite
+- Water Gun
+- Ice Fang
 
 /*
 

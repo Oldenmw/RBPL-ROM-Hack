@@ -17,26 +17,15 @@ Route102_EventScript_Boy::
 	msgbox Route102_Text_CatchWholeBunchOfPokemon, MSGBOX_NPC
 	end
 
-Route102_EventScript_Calvin::
-	trainerbattle_single TRAINER_CALVIN_1, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated
-	msgbox Route102_Text_CalvinPostBattle, MSGBOX_AUTOCLOSE
-	release
+Route102_EventScript_Dust::
+	trainerbattle_single TRAINER_DUST, Route102_Text_DustIntro, Route102_Text_DustDefeated
+	msgbox Route102_Text_DustPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route102_EventScript_Rick::
-	trainerbattle_single TRAINER_RICK, Route102_Text_RickIntro, Route102_Text_RickDefeated
-	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route102_EventScript_Tiana::
-	trainerbattle_single TRAINER_TIANA, Route102_Text_TianaIntro, Route102_Text_TianaDefeated
-	msgbox Route102_Text_TianaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route102_EventScript_Allen::
-	trainerbattle_single TRAINER_ALLEN, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
+Route102_EventScript_Leonardo::
+	trainerbattle_single TRAINER_LEONARDO, Route102_Text_LeonardoIntro, Route102_Text_LeonardoDefeated
+	msgbox Route102_Text_LeonardoPostBattle, MSGBOX_AUTOCLOSE
+	End
 
 Route102_Text_WatchMeCatchPokemon:
 	.string "WALLY: {PLAYER}…\n"

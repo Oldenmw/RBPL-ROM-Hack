@@ -9330,7 +9330,7 @@
       "width": 40,
       "height": 40,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Dewford",
+      "secondary_tileset": "gTileset_Swamp",
       "border_filepath": "data/layouts/BaarleIsland/border.bin",
       "blockdata_filepath": "data/layouts/BaarleIsland/map.bin"
     },
