@@ -259,12 +259,11 @@ static void DrawMetatile(s32 metatileLayerType, const u16 *tiles, u16 offset)
         gOverworldTilemapBuffer_Bg2[offset + 0x20] = 0;
         gOverworldTilemapBuffer_Bg2[offset + 0x21] = 0;
 
-        // Draw metatile's top layer to the middle background layer.
+        // Draw metatile's top layer to the top background layer.
         gOverworldTilemapBuffer_Bg1[offset] = tiles[4];
         gOverworldTilemapBuffer_Bg1[offset + 1] = tiles[5];
         gOverworldTilemapBuffer_Bg1[offset + 0x20] = tiles[6];
         gOverworldTilemapBuffer_Bg1[offset + 0x21] = tiles[7];
-
     }
     else
     {
@@ -280,15 +279,12 @@ static void DrawMetatile(s32 metatileLayerType, const u16 *tiles, u16 offset)
         gOverworldTilemapBuffer_Bg2[offset + 0x20] = tiles[6];
         gOverworldTilemapBuffer_Bg2[offset + 0x21] = tiles[7];
 
-        // Draw metatile's top layer to the top background layer, which covers object event sprites.
+        // Draw metatile's top layer to the top background layer.
         gOverworldTilemapBuffer_Bg1[offset] = tiles[8];
         gOverworldTilemapBuffer_Bg1[offset + 1] = tiles[9];
         gOverworldTilemapBuffer_Bg1[offset + 0x20] = tiles[10];
         gOverworldTilemapBuffer_Bg1[offset + 0x21] = tiles[11];
-
-
     }
-    
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
     ScheduleBgCopyTilemapToVram(3);

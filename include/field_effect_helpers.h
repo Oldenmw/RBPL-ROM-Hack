@@ -34,6 +34,9 @@ void UpdateJumpImpactEffect(struct Sprite *sprite);
 void UpdateFootprintsTireTracksFieldEffect(struct Sprite *sprite);
 void UpdateSplashFieldEffect(struct Sprite *sprite);
 void UpdateLongGrassFieldEffect(struct Sprite *sprite);
+void UpdatePrairieLongGrassFieldEffect(struct Sprite *sprite);
+void UpdatePrairieTallGrassFieldEffect(struct Sprite *sprite);
+u8 FindPrairieTallGrassFieldEffectSpriteId(u8 localId, u8 mapNum, u8 mapGroup, s16 x, s16 y);
 void UpdateSandPileFieldEffect(struct Sprite *sprite);
 void UpdateDisguiseFieldEffect(struct Sprite *sprite);
 void UpdateShortGrassFieldEffect(struct Sprite *sprite);
@@ -44,5 +47,15 @@ void SetSpriteInvisible(u8 spriteId);
 void ShowWarpArrowSprite(u8 spriteId, enum Direction direction, s16 x, s16 y);
 
 u32 FldEff_TallGrass(void);
+
+void UpdateSwampTallGrassFieldEffect(struct Sprite *sprite);
+u8 FindSwampTallGrassFieldEffectSpriteId(u8 localId, u8 mapNum, u8 mapGroup, s16 x, s16 y);
+u32 FldEff_SwampTallGrass(void);
+u32 FldEff_JumpSwampTallGrass(void);
+
+void UpdateSwampPlantsFieldEffect(struct Sprite *sprite);
+u8 FindSwampPlantsFieldEffectSpriteId(u8 localId, u8 mapNum, u8 mapGroup, s16 x, s16 y);
+u32 FldEff_SwampPlants(void);
+u32 FldEff_JumpSwampPlants(void);
 
 #endif //GUARD_FIELD_EFFECT_HELPERS_H

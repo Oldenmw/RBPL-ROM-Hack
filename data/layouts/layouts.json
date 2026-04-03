@@ -7327,8 +7327,8 @@
       "name": "OneIsland_Layout",
       "width": 24,
       "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "primary_tileset": "gTileset_General_Frlg",
+      "secondary_tileset": "gTileset_SeviiIslands123",
       "border_filepath": "data/layouts/OneIsland_Frlg/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_Frlg/map.bin",
       "border_height": 2,
@@ -9343,6 +9343,36 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/LittlerootTown_Mansion/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_Mansion/map.bin"
+    },
+    {
+      "id": "LAYOUT_PRAIRIE2",
+      "name": "Prairie2_Layout",
+      "width": 45,
+      "height": 25,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Prairie",
+      "border_filepath": "data/layouts/Prairie2/border.bin",
+      "blockdata_filepath": "data/layouts/Prairie2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SWAMP1",
+      "name": "Swamp1_Layout",
+      "width": 48,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Swamp",
+      "border_filepath": "data/layouts/Swamp1/border.bin",
+      "blockdata_filepath": "data/layouts/Swamp1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SWAMP2",
+      "name": "Swamp2_Layout",
+      "width": 30,
+      "height": 32,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Swamp",
+      "border_filepath": "data/layouts/Swamp2/border.bin",
+      "blockdata_filepath": "data/layouts/Swamp2/map.bin"
     }
   ]
 }

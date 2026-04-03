@@ -411,9 +411,11 @@ const u16 gMetatileAttributes_HallOfFame[] = INCBIN_U16("data/tilesets/secondary
 
 const u16 gMetatiles_Island[] = INCBIN_U16("data/tilesets/secondary/island/metatiles.bin");
 const u16 gMetatileAttributes_Island[] = INCBIN_U16("data/tilesets/secondary/island/metatile_attributes.bin");
-
 const u16 gMetatiles_OrangeIslands[] = INCBIN_U16("data/tilesets/primary/orange_islands/metatiles.bin");
 const u16 gMetatileAttributes_OrangeIslands[] = INCBIN_U16("data/tilesets/primary/orange_islands/metatile_attributes.bin");
-
 const u16 gMetatiles_ValenciaIsland[] = INCBIN_U16("data/tilesets/secondary/valencia_island/metatiles.bin");
 const u16 gMetatileAttributes_ValenciaIsland[] = INCBIN_U16("data/tilesets/secondary/valencia_island/metatile_attributes.bin");
+const u16 gMetatiles_Prairie[] = INCBIN_U16("data/tilesets/secondary/prairie/metatiles.bin");
+const u16 gMetatileAttributes_Prairie[] = INCBIN_U16("data/tilesets/secondary/prairie/metatile_attributes.bin");
+const u16 gMetatiles_Swamp[] = INCBIN_U16("data/tilesets/secondary/swamp/metatiles.bin");
+const u16 gMetatileAttributes_Swamp[] = INCBIN_U16("data/tilesets/secondary/swamp/metatile_attributes.bin");

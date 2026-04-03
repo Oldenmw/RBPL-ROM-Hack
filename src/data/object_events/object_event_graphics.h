@@ -313,6 +313,11 @@ const u32 gFieldEffectObjectPic_JumpLongGrass[] = INCBIN_U32("graphics/field_eff
 const u32 gFieldEffectObjectPic_Unknown17[] = INCBIN_U32("graphics/field_effects/pics/unknown_17.4bpp");
 const u32 gFieldEffectObjectPic_UnusedGrass2[] = INCBIN_U32("graphics/field_effects/pics/unused_grass_2.4bpp");
 const u32 gFieldEffectObjectPic_LongGrass[] = INCBIN_U32("graphics/field_effects/pics/long_grass.4bpp");
+const u32 gFieldEffectObjectPic_PrairieLongGrass[] = INCBIN_U32("graphics/field_effects/pics/prairie_long_grass.4bpp");
+const u32 gFieldEffectObjectPic_JumpPrairieLongGrass[] = INCBIN_U32("graphics/field_effects/pics/jump_prairie_long_grass.4bpp");
+const u16 gFieldEffectObjectPalette_PrairieLongGrass[] = INCBIN_U16("graphics/field_effects/palettes/prairie_long_grass.gbapal");
+const u32 gFieldEffectObjectPic_PrairieTallGrass[] = INCBIN_U32("graphics/field_effects/pics/prairie_tall_grass.4bpp");
+const u32 gFieldEffectObjectPic_JumpPrairieTallGrass[] = INCBIN_U32("graphics/field_effects/pics/jump_prairie_tall_grass.4bpp");
 const u32 gFieldEffectObjectPic_TallGrass[] = INCBIN_U32("graphics/field_effects/pics/tall_grass.4bpp");
 const u32 gFieldEffectObjectPic_ShortGrass[] = INCBIN_U32("graphics/field_effects/pics/short_grass.4bpp");
 const u32 gFieldEffectObjectPic_SandFootprints[] = INCBIN_U32("graphics/field_effects/pics/sand_footprints.4bpp");
@@ -465,6 +470,11 @@ const u16 gObjectEventPal_StrangeBall[] = INCBIN_U16("graphics/object_events/pic
 
 const u32 gFieldEffectObjectPic_CaveDust[] = INCBIN_U32("graphics/field_effects/pics/cave_dust.4bpp");
 const u16 gFieldEffectObjectPalette_CaveDust[] = INCBIN_U16("graphics/field_effects/palettes/cave_dust.gbapal");
+const u16 gFieldEffectObjectPalette_SwampTallGrass[] = INCBIN_U16("graphics/field_effects/palettes/swamp_tall_grass.gbapal");
+const u32 gFieldEffectObjectPic_SwampTallGrass[] = INCBIN_U32("graphics/field_effects/pics/swamp_tall_grass.4bpp");
+const u32 gFieldEffectObjectPic_SwampPlants[] = INCBIN_U32("graphics/field_effects/pics/swamp_plants.4bpp");
+const u32 gFieldEffectObjectPic_JumpSwampPlants[] = INCBIN_U32("graphics/field_effects/pics/jump_swamp_plants.4bpp");
+const u16 gFieldEffectObjectPalette_SwampPlants[] = INCBIN_U16("graphics/field_effects/palettes/swamp_plants.gbapal");
 
 const u32 gObjectEventPic_ApricornTree[] = INCBIN_U32("graphics/object_events/pics/misc/apricorn_tree.4bpp");
 

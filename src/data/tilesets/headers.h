@@ -833,6 +833,28 @@ const struct Tileset gTileset_UnionRoom =
     .callback = NULL,
 };
 
+const struct Tileset gTileset_Prairie =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Prairie,
+    .palettes = gTilesetPalettes_Prairie,
+    .metatiles = gMetatiles_Prairie,
+    .metatileAttributes = gMetatileAttributes_Prairie,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Swamp =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Swamp,
+    .palettes = gTilesetPalettes_Swamp,
+    .metatiles = gMetatiles_Swamp,
+    .metatileAttributes = gMetatileAttributes_Swamp,
+    .callback = InitTilesetAnim_Swamp,
+};
+
 #else
 
 // FRLG tilesets
@@ -1541,36 +1563,3 @@ const struct Tileset gTileset_HallOfFame =
 };
 
 #endif // IS_FRLG
-
-const struct Tileset gTileset_Island =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_Island,
-    .palettes = gTilesetPalettes_Island,
-    .metatiles = gMetatiles_Island,
-    .metatileAttributes = gMetatileAttributes_Island,
-    .callback = NULL,
-};
-
-const struct Tileset gTileset_OrangeIslands =
-{
-    .isCompressed = TRUE,
-    .isSecondary = FALSE,
-    .tiles = gTilesetTiles_OrangeIslands,
-    .palettes = gTilesetPalettes_OrangeIslands,
-    .metatiles = gMetatiles_OrangeIslands,
-    .metatileAttributes = gMetatileAttributes_OrangeIslands,
-    .callback = NULL,
-};
-
-const struct Tileset gTileset_ValenciaIsland =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_ValenciaIsland,
-    .palettes = gTilesetPalettes_ValenciaIsland,
-    .metatiles = gMetatiles_ValenciaIsland,
-    .metatileAttributes = gMetatileAttributes_ValenciaIsland,
-    .callback = NULL,
-};
