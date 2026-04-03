@@ -4,12 +4,10 @@ Route102_Text_CalvinIntro:
 	.string "You can't say no to my challenge!$"
 
 Route102_Text_CalvinDefeated:
-	.string "Arrgh, I lost…\n"
-	.string "I should have trained mine more…$"
+	.string "..."
 
 Route102_Text_CalvinPostBattle:
-	.string "Listen, you. If you're strong,\n"
-	.string "you should have told me before!$"
+	.string "I didn't want to win anyway."
 
 Route102_Text_CalvinRegister:
 	.string "I've been working hard at this since\n"

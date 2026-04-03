@@ -408,3 +408,12 @@ const u16 gMetatiles_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/hall_of_
 const u16 gMetatileAttributes_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/hall_of_fame_frlg/metatile_attributes.bin");
 
 #endif // IS_FRLG
+
+const u16 gMetatiles_Island[] = INCBIN_U16("data/tilesets/secondary/island/metatiles.bin");
+const u16 gMetatileAttributes_Island[] = INCBIN_U16("data/tilesets/secondary/island/metatile_attributes.bin");
+
+const u16 gMetatiles_OrangeIslands[] = INCBIN_U16("data/tilesets/primary/orange_islands/metatiles.bin");
+const u16 gMetatileAttributes_OrangeIslands[] = INCBIN_U16("data/tilesets/primary/orange_islands/metatile_attributes.bin");
+
+const u16 gMetatiles_ValenciaIsland[] = INCBIN_U16("data/tilesets/secondary/valencia_island/metatiles.bin");
+const u16 gMetatileAttributes_ValenciaIsland[] = INCBIN_U16("data/tilesets/secondary/valencia_island/metatile_attributes.bin");

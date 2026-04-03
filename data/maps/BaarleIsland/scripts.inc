@@ -1,0 +1,2 @@
+BaarleIsland_MapScripts::
+	.byte 0

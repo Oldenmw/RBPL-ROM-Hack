@@ -114,7 +114,7 @@
     {
       "id": "LAYOUT_OLDALE_TOWN",
       "name": "OldaleTown_Layout",
-      "width": 20,
+      "width": 46,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
@@ -7327,8 +7327,8 @@
       "name": "OneIsland_Layout",
       "width": 24,
       "height": 20,
-      "primary_tileset": "gTileset_General_Frlg",
-      "secondary_tileset": "gTileset_SeviiIslands123",
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/OneIsland_Frlg/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_Frlg/map.bin",
       "border_height": 2,
@@ -9323,6 +9323,26 @@
       "border_height": 2,
       "border_width": 2,
       "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_BAARLE_ISLAND",
+      "name": "BaarleIsland_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/BaarleIsland/border.bin",
+      "blockdata_filepath": "data/layouts/BaarleIsland/map.bin"
+    },
+    {
+      "id": "LAYOUT_LITTLEROOT_TOWN_MANSION",
+      "name": "LittlerootTown_Mansion_Layout",
+      "width": 22,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/LittlerootTown_Mansion/border.bin",
+      "blockdata_filepath": "data/layouts/LittlerootTown_Mansion/map.bin"
     }
   ]
 }
