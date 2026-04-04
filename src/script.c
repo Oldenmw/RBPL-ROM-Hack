@@ -689,3 +689,8 @@ void SetWalkingIntoSignVars(void)
     // gWalkAwayFromSignInhibitTimer = 6;
     // sMsgBoxIsCancelable = TRUE;
 }
+
+void GetObjectEventTrainerRangeFromTemplate(void)
+{
+    gSpecialVar_Result = gMapHeader.events->objectEvents[gSpecialVar_LastTalked - 1].trainerRange_berryTreeId;
+}
