@@ -136,15 +136,6 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 8,
-      "y": 8,
-      "elevation": 0,
-      "var": "VAR_LITTLEROOT_INTRO_STATE",
-      "var_value": "4",
-      "script": "LittlerootTown_BrendansHouse_1F_EventScript_GoSeeRoom"
-    },
-    {
-      "type": "trigger",
       "x": 7,
       "y": 3,
       "elevation": 0,
