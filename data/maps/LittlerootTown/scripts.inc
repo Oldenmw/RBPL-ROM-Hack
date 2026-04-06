@@ -372,7 +372,7 @@ LittlerootTown_EventScript_PlayersHouseSignFemale::
 LittlerootTown_EventScript_GiveRunningShoesTrigger0::
 	lockall
 	setvar VAR_0x8008, 0
-	setobjectxy LOCALID_LITTLEROOT_MOM, 10, 9
+	setobjectxy LOCALID_LITTLEROOT_MOM, 13, 17
 	goto LittlerootTown_EventScript_GiveRunningShoesTrigger
 	end
 
