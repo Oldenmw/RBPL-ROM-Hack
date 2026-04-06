@@ -27,6 +27,11 @@ Route102_EventScript_Leonardo::
 	msgbox Route102_Text_LeonardoPostBattle, MSGBOX_AUTOCLOSE
 	End
 
+Route102_EventScript_Hayata::
+	trainerbattle_single TRAINER_HAYATA, Route102_Text_HayataIntro, Route102_Text_HayataDefeated
+	msgbox Route102_Text_HayataPostBattle, MSGBOX_AUTOCLOSE
+	End
+
 Route102_Text_WatchMeCatchPokemon:
 	.string "WALLY: {PLAYER}…\n"
 	.string "POKéMON hide in tall grass like this,\l"

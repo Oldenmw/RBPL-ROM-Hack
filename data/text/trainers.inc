@@ -20,6 +20,16 @@ Route102_Text_LeonardoDefeated:
 Route102_Text_LeonardoPostBattle:
 	.string "I hope that item was worth it.$"
 
+Route102_Text_HayataIntro:
+	.string "Hya!$"
+
+Route102_Text_HayataDefeated:
+	.string "Don't give up.$"
+
+Route102_Text_HayataPostBattle:
+	.string "The future is a blank page.\n"
+	.string "You can change fate.$"
+
 Route102_Text_RickIntro:
 	.string "Hahah! Our eyes met!\n"
 	.string "I'll take you on with my BUG POKéMON!$"
