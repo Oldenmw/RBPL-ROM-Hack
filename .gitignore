@@ -70,3 +70,6 @@ data/maps/**/scripts.inc
 CLAUDE.md
 .claude/*
 private-notes/*
+notes/
+tools/poryscript/poryscript
+data/maps/**/scripts.inc
