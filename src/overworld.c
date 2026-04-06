@@ -454,7 +454,7 @@ void Overworld_ResetBattleFlagsAndVars(void)
 }
 #endif
 
-static void Overworld_ResetStateAfterWhiteOut(void)
+void Overworld_ResetStateAfterWhiteOut(void)
 {
     ResetInitialPlayerAvatarState();
     FlagClear(FLAG_SYS_CYCLING_ROAD);
