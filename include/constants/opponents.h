@@ -11,6 +11,10 @@
 #define TRAINER_BILLY                       4
 #define TRAINER_DARIAN                      5
 #define TRAINER_GRUNT_PETALBURG_WOODS       6
+#define TRAINER_TH3E                        7
+#define TRAINER_MARC                        8
+#define TRAINER_JOSH                        9
+#define TRAINER_TOMMY                       10
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 3 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
@@ -293,7 +297,7 @@
 #define TRAINER_PHOEBE                      262
 #define TRAINER_GLACIA                      263
 #define TRAINER_DRAKE                       264
-#define TRAINER_ROXANNE_1                   265
+#define TRAINER_TH3E_1                   265
 #define TRAINER_BRAWLY_1                    266
 #define TRAINER_WATTSON_1                   267
 #define TRAINER_FLANNERY_1                  268
@@ -347,8 +351,6 @@
 #define TRAINER_SHELBY_4                    316
 #define TRAINER_SHELBY_5                    317
 #define TRAINER_CALVIN_1                    318
-#define TRAINER_JOSH                        320
-#define TRAINER_TOMMY                       321
 #define TRAINER_JOEY                        322
 #define TRAINER_BEN                         323
 #define TRAINER_QUINCY                      324
@@ -598,7 +600,6 @@
 #define TRAINER_GRUNT_UNUSED                568
 #define TRAINER_GRUNT_MT_PYRE_4             569
 #define TRAINER_GRUNT_JAGGED_PASS           570
-#define TRAINER_MARC                        571
 #define TRAINER_BRENDEN                     572
 #define TRAINER_LILITH                      573
 #define TRAINER_CRISTIAN                    574
@@ -796,10 +797,10 @@
 #define TRAINER_CRISTIN_1                   767
 #define TRAINER_MAY_RUSTBORO_TREECKO        768
 #define TRAINER_MAY_RUSTBORO_TORCHIC        769
-#define TRAINER_ROXANNE_2                   770
-#define TRAINER_ROXANNE_3                   771
-#define TRAINER_ROXANNE_4                   772
-#define TRAINER_ROXANNE_5                   773
+#define TRAINER_TH3E_2                   770
+#define TRAINER_TH3E_3                   771
+#define TRAINER_TH3E_4                   772
+#define TRAINER_TH3E_5                   773
 #define TRAINER_BRAWLY_2                    774
 #define TRAINER_BRAWLY_3                    775
 #define TRAINER_BRAWLY_4                    776

@@ -273,6 +273,170 @@ Level: 14
 Ability: Adaptability
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+=== TRAINER_WINSTON_1 ===
+Name: WINSTON
+Class: Rich Boy
+Pic: Rich Boy
+Gender: Male
+Music: Rich
+Items: Full Restore
+Double Battle: No
+AI: Check Bad Move
+
+Zigzagoon @ Nugget
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Glameow @ Silk Scarf
+Level: 14
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+=== TRAINER_HALEY_1 ===
+Name: HALEY
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Lotad
+Level: 13
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Shroomish
+Level: 13
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Leech Seed
+- Poison Powder
+- Mega Drain
+
+Froakie
+Level: 14
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+=== TRAINER_GINA_AND_MIA_1 ===
+Name: GINA & MIA
+Class: Twins
+Pic: Twins
+Gender: Male
+Music: Twins
+Double Battle: Yes
+AI: Check Bad Move
+
+Seedot
+Level: 12
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Fake Out
+- Mega Drain
+- Feint Attack
+
+Lotad
+Level: 12
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Bubble
+- Mega Drain
+
+Surskit
+Level: 12
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- String Shot
+- Swagger
+- Leech Life
+
+Dustox
+Level: 13
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Toxic
+- Moonlight
+- Acid Spray
+- Struggle Bug
+
+/* RUSTBORO GYM */
+
+=== TRAINER_JOSH ===
+Name: JOSH
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Grookey
+Level: 12
+Ability: Grassy Surge
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Leafage
+- Quick Attack
+- U-Turn
+
+Lileep
+Level: 13
+Ability: Storm Drain
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Leech Seed
+- Giga Drain
+- Ancient Power
+
+=== TRAINER_TOMMY ===
+Name: TOMMY
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Glimmet @ Focus Sash
+Level: 14
+Ability: Toxic Debris
+IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Stealth Rock
+- Acid Spray
+- Confuse Ray
+- Mud Shot
+
+Bonsly @ Custap Berry
+Level: 15
+Ability: Sturdy
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Head Smash
+- Wood Hammer
+
+Phantump @ Lum Berry
+Level: 15
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Leech Seed
+- Curse
+- Horn Leech
+- Will-O-Wisp
+
+=== TRAINER_MARC ===
+Name: MARC
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Smart Trainer
+
+Geodude
+Level: 18
+Ability: Sturdy
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Magnitude
+- Rock Throw
+- Explosion
+
+Geodude
+Level: 18
+Ability: Sturdy
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rock Polish
+- Bulldoze
+- Rock Throw
+
 === TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
 Name: BRENDAN
 Class: Rival
@@ -560,8 +724,8 @@ Double Battle: No
 AI: Basic Trainer
 
 Mudkip
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 7
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
 Name: MAY
@@ -604,6 +768,80 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Marshtomp
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_TH3E ===
+Name: th3e
+Class: Leader
+Pic: Leader Roxanne
+Gender: Male
+Music: Male
+Double Battle: No
+Items: Super Potion / Super Potion
+AI: Smart Trainer
+
+STONEjourner (Stonjourner) @ Sitrus Berry
+Level: 18
+Ability: Power Spot  
+Tera Type: Rock  
+Impish Nature  
+- Rock Blast  
+- Heat Crash  
+- Low Sweep  
+- Wonder Room  
+
+FarSTICK'D (Farfetch’d) @ Stick
+Level: 18
+Ability: Defiant  
+Tera Type: Normal  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Slash  
+- Night Slash  
+- Roost  
+- Dual Wingbeat  
+
+STWICKY (Thwackey) @ Terrain Extender
+Level: 18
+Ability: Grassy Surge  
+Tera Type: Grass  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Grassy Glide  
+- Swords Dance  
+- Body Slam  
+- Leech Seed  
+
+YaSTONE (Yamask-Galar) @ Eviolite
+Level: 18
+Ability: Wandering Spirit  
+Tera Type: Ground  
+EVs: 252 HP / 8 Def / 248 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Toxic Spikes  
+- Curse  
+- Will-O-Wisp  
+- Night Shade  
+
+TimSTICK (Timburr) @ Flame Orb
+Level: 18
+Ability: Guts  
+Tera Type: Fighting  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Drain Punch
+- Knock Off  
+- Mach Punch  
+- Facade  
+
+HoundSTONE (Houndstone) @ Spell Tag
+Level: 19
+Ability: Sand Rush
+Tera Type: Ghost  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Last Respects
+- Roar
 
 /* ========== OLD TRAINERS ==========
 
@@ -2732,20 +2970,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Screech
 - Glare
 - Crunch
-
-=== TRAINER_WINSTON_1 ===
-Name: WINSTON
-Class: Rich Boy
-Pic: Rich Boy
-Gender: Male
-Music: Rich
-Items: Full Restore
-Double Battle: No
-AI: Check Bad Move
-
-Zigzagoon @ Nugget
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MOLLIE ===
 Name: MOLLIE
@@ -6170,37 +6394,6 @@ Level: 2
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fake Tears
 
-=== TRAINER_JOSH ===
-Name: JOSH
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Geodude
-Level: 10
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-
-=== TRAINER_TOMMY ===
-Name: TOMMY
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Geodude
-Level: 8
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
 === TRAINER_JOEY ===
 Name: JOEY
 Class: Youngster
@@ -8997,23 +9190,6 @@ Minun
 Level: 27
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-=== TRAINER_GINA_AND_MIA_1 ===
-Name: GINA & MIA
-Class: Twins
-Pic: Twins
-Gender: Male
-Music: Twins
-Double Battle: Yes
-AI: Check Bad Move
-
-Seedot
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Lotad
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_MIU_AND_YUKI ===
 Name: MIU & YUKI
 Class: Twins
@@ -10421,23 +10597,6 @@ Numel
 Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_MARC ===
-Name: MARC
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Geodude
-Level: 8
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-
 === TRAINER_BRENDEN ===
 Name: BRENDEN
 Class: Sailor
@@ -10929,23 +11088,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shroomish
 Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_HALEY_1 ===
-Name: HALEY
-Class: Lass
-Pic: Lass
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Lotad
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Shroomish
-Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JANICE ===

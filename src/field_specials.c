@@ -476,7 +476,7 @@ bool32 ShouldDoScottBattleFrontierCall(void)
     return TRUE;
 }
 
-bool32 ShouldDoRoxanneCall(void)
+bool32 ShouldDoTh3eCall(void)
 {
     if (FlagGet(FLAG_ENABLE_ROXANNE_FIRST_CALL))
     {
