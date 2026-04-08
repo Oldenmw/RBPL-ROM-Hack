@@ -16,6 +16,9 @@
 #define TRAINER_JOSH                        9
 #define TRAINER_TOMMY                       10
 #define TRAINER_FUECOCO                     11
+#define TRAINER_JULIA                       12
+#define TRAINER_TIM_AND_TAM                 13
+
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 3 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled

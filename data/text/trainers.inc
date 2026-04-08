@@ -2154,6 +2154,46 @@ Route115_Text_MarlenePostBattle:
 	.string "I was meditating with my POKéMON.\n"
 	.string "But this place isn't very peaceful…$"
 
+Route115_Text_JuliaIntro:
+	.string "Isn't ice skating in that cave fun?!$"
+
+Route115_Text_JuliaDefeat:
+	.string "My flowers lost their bloom...$"
+
+Route115_Text_JuliaPostBattle:
+	.string "Those two meanies are blocking the way out.\n"
+	.string "You should go beat them!$"
+
+Route115_Text_TamIntro:
+	.string "That girl over there is so annoying.\p"
+	.string "We're just having a nice day\n"
+	.string "With our POKéMON!$"
+
+Route115_Text_TamDefeat:
+	.string "You've ruined our day...$"
+
+Route115_Text_TamPostBattle:
+	.string "I hope you're happy.$"
+
+Route115_Text_TamNotEnoughMons:
+	.string "We're just out to enjoy\n"
+	.string "A beautiful day!$"
+
+Route115_Text_TimIntro:
+	.string "That girl over there is so annoying.\p"
+	.string "We're just having a nice day\n"
+	.string "With our POKéMON!$"
+
+Route115_Text_TimDefeat:
+	.string "You made my wife cry!$"
+
+Route115_Text_TimPostBattle:
+	.string "I hope you're happy.$"
+
+Route115_Text_TimNotEnoughMons:
+	.string "Sneaky of you to get by with\n"
+	.string "just one POKéMON.$"
+
 Route116_Text_ClarkIntro:
 	.string "If the tunnel doesn't go through, then\n"
 	.string "I'll just go over the top.$"

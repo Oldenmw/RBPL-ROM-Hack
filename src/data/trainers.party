@@ -352,6 +352,87 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Acid Spray
 - Struggle Bug
 
+=== TRAINER_JULIA ===
+Name: Julia
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Smart Trainer
+
+Hoppip
+Level: 16
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Sleep Powder
+- Reflect
+- Bounce
+- U-Turn
+
+Roselia
+Level: 17
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Leech Seed
+- Mega Drain
+- Venoshock
+- Poison Powder
+
+Cottonee
+Level: 17
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Charm
+- Mega Drain
+- Fairy Wind
+- Swift
+
+Flabebe
+Level: 17
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Substitute
+- Draining Kiss
+- Mega Drain
+- Wish
+
+=== TRAINER_TIM_AND_TAM ===
+Name: Tim & Tam
+Class: Pokefan
+Pic: Pokefan F
+Gender: Male
+Music: Twins
+Double Battle: Yes
+AI: Smart Trainer
+
+Magby
+Level: 17
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Smokescreen
+- Confuse Ray
+- Follow Me
+- Flame Wheel
+
+Riolu
+Level: 17
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Mach Punch
+- Bullet Punch
+- Detect
+
+Elekid
+Level: 17
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Thunder Wave
+- Follow Me
+- Thundershock
+- Karate Chop
+
+Snorunt
+Level: 17
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Icy Wind
+- Ice Shard
+- Bite
+- Fake Tears
+
 /* RUSTBORO GYM */
 
 === TRAINER_JOSH ===

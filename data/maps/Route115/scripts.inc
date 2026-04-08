@@ -57,6 +57,21 @@ Route115_EventScript_Koichi::
 	msgbox Route115_Text_KoichiPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route115_EventScript_Julia::
+	trainerbattle_single TRAINER_JULIA, Route115_Text_JuliaIntro, Route115_Text_JuliaDefeat
+	msgbox Route115_Text_JuliaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route115_EventScript_Tim::
+	trainerbattle_double TRAINER_TIM_AND_TAM, Route115_Text_TimIntro, Route115_Text_TimDefeat, Route115_Text_TimNotEnoughMons
+	msgbox Route115_Text_TimPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route115_EventScript_Tam::
+	trainerbattle_double TRAINER_TIM_AND_TAM, Route115_Text_TamIntro, Route115_Text_TamDefeat, Route115_Text_TamNotEnoughMons
+	msgbox Route115_Text_TamPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 Route115_EventScript_Nob::
 	trainerbattle_single TRAINER_NOB_1, Route115_Text_NobIntro, Route115_Text_NobDefeat, Route115_EventScript_RegisterNob
 	specialvar VAR_RESULT, ShouldTryRematchBattle
