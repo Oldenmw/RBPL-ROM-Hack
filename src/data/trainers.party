@@ -437,6 +437,84 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Bulldoze
 - Rock Throw
 
+=== TRAINER_FUECOCO ===
+Name: Fuecoco
+Class: Leader
+Pic: Hiker
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+
+Fuecoco @ Eviolite  
+Ability: Unaware  
+Level: 24  
+Tera Type: Fire  
+EVs: 224 HP / 40 SpA / 240 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Snarl  
+- Overheat  
+- Protect  
+
+Totodile @ Expert Belt  
+Ability: Sheer Force  
+Level: 20  
+Tera Type: Water  
+EVs: 236 HP / 236 Atk / 32 SpD  
+Adamant Nature  
+- Crunch  
+- Aqua Jet  
+- Liquidation  
+- Protect  
+
+Grookey @ Assault Vest  
+Ability: Grassy Surge  
+Level: 20  
+Tera Type: Grass  
+EVs: 236 HP / 236 Def / 36 SpD  
+Impish Nature  
+- Fake Out  
+- Grassy Glide  
+- Wood Hammer  
+- Knock Off  
+
+Sandile @ Bright Powder  
+Ability: Intimidate  
+Level: 20  
+Tera Type: Ground  
+EVs: 236 HP / 20 Atk / 236 SpD / 16 Spe  
+Careful Nature  
+- Crunch  
+- Bulldoze  
+- Taunt  
+- Protect  
+
+Axew @ Berry Juice  
+Ability: Mold Breaker  
+Level: 20  
+Tera Type: Dragon  
+EVs: 4 HP / 248 Atk / 16 SpD / 240 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Dragon Claw  
+- Stomping Tantrum  
+- Protect  
+
+Gible @ Rocky Helmet  
+Ability: Rough Skin  
+Level: 20  
+Tera Type: Dragon  
+EVs: 232 HP / 36 Atk / 236 Def  
+Impish Nature  
+- Dragon Tail  
+- Bulldoze  
+- Helping Hand  
+- Protect  
+
+
+
 === TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
 Name: BRENDAN
 Class: Rival

@@ -234,6 +234,19 @@ RustboroCity_EventScript_LittleGirl::
 	release
 	end
 
+RustboroCity_EventScript_Fuecoco::
+	trainerbattle_single TRAINER_FUECOCO, RustboroCity_Text_FuecocoIntro, RustboroCity_Text_FuecocoDefeated
+	goto_if_unset FLAG_RECEIVED_EVIOLITE, RustboroCity_EventScript_GiveEviolite
+	msgbox RustboroCity_Text_FuecocoPostBattle, MSGBOX_AUTOCLOSE
+	End
+
+RustboroCity_EventScript_GiveEviolite::
+	giveitem ITEM_EVIOLITE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_EVIOLITE
+	release
+	end
+
 RustboroCity_EventScript_Man2::
 	lock
 	faceplayer
@@ -1290,3 +1303,12 @@ RustboroCity_Text_YouCanHave2On2Battle:
 	.string "they'll both challenge you.\p"
 	.string "Don't you think it'd be cool if you\n"
 	.string "could beat two TRAINERS by yourself?$"
+
+RustboroCity_Text_FuecocoIntro:
+	.string "Fuecoco!$"
+
+RustboroCity_Text_FuecocoDefeated:
+	.string "Fue...$"
+
+RustboroCity_Text_FuecocoPostBattle:
+	.string "Fue. Fuecoco!$"

@@ -9393,6 +9393,17 @@
       "secondary_tileset": "gTileset_Swamp",
       "border_filepath": "data/layouts/Swamp2/border.bin",
       "blockdata_filepath": "data/layouts/Swamp2/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLDALE_TOWN_HOUSE3",
+      "name": "OldaleTown_House3_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/OldaleTown_House3/border.bin",
+      "blockdata_filepath": "data/layouts/OldaleTown_House3/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
