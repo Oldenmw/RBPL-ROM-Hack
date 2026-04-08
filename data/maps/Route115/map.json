@@ -144,7 +144,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 20,
+      "x": 9,
       "y": 60,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -345,6 +345,13 @@
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_TERRA_CAVE_ENTRANCE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 21,
+      "y": 60,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE115",
       "dest_warp_id": "0"
     }
   ],

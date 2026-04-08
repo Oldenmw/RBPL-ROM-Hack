@@ -1758,3 +1758,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/Swamp2/scripts.inc"
 
 	.include "data/maps/OldaleTown_House3/scripts.inc"
+
+	.include "data/maps/ShallowsCave/scripts.inc"

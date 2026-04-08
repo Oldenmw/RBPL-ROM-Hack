@@ -9404,6 +9404,17 @@
       "border_filepath": "data/layouts/OldaleTown_House3/border.bin",
       "blockdata_filepath": "data/layouts/OldaleTown_House3/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_SHALLOWS_CAVE",
+      "name": "ShallowsCave_Layout",
+      "width": 21,
+      "height": 32,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/ShallowsCave/border.bin",
+      "blockdata_filepath": "data/layouts/ShallowsCave/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
