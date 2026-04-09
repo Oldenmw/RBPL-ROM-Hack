@@ -1,5 +1,9 @@
 script MoveToBattle {
-	
+	lock
+	switch (var(VAR_0x8008)) {
+		case 0:
+			
+	}
 }
 
 raw `
