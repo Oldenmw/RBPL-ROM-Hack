@@ -1,0 +1,4 @@
+raw `
+ShallowsCave_MapScripts::
+	.byte 0
+`

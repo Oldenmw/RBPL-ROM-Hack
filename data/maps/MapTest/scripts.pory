@@ -1,0 +1,4 @@
+raw `
+MapTest_MapScripts::
+	.byte 0
+`
