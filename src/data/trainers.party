@@ -396,7 +396,7 @@ Double Battle: No
 AI: Smart Trainer
 
 Hoppip
-Level: 16
+Level: 14
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Sleep Powder
 - Reflect
@@ -404,7 +404,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - U-Turn
 
 Roselia
-Level: 17
+Level: 14
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Leech Seed
 - Mega Drain
@@ -412,7 +412,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Poison Powder
 
 Cottonee
-Level: 17
+Level: 15
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Charm
 - Mega Drain
@@ -420,7 +420,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Swift
 
 Flabebe
-Level: 17
+Level: 15
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Substitute
 - Draining Kiss
@@ -437,7 +437,7 @@ Double Battle: Yes
 AI: Smart Trainer
 
 Magby
-Level: 17
+Level: 16
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Smokescreen
 - Confuse Ray
@@ -445,14 +445,14 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Flame Wheel
 
 Riolu
-Level: 17
+Level: 16
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Mach Punch
 - Bullet Punch
 - Detect
 
 Elekid
-Level: 17
+Level: 16
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Thunder Wave
 - Follow Me
@@ -460,7 +460,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Karate Chop
 
 Snorunt
-Level: 17
+Level: 16
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Icy Wind
 - Ice Shard
@@ -650,7 +650,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Grookey
-Level: 12
+Level: 16
 Ability: Grassy Surge
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Leafage
@@ -658,7 +658,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - U-Turn
 
 Lileep
-Level: 13
+Level: 16
 Ability: Storm Drain
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Leech Seed
@@ -675,7 +675,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Glimmet @ Focus Sash
-Level: 14
+Level: 15
 Ability: Toxic Debris
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 - Stealth Rock
@@ -684,14 +684,14 @@ IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 - Mud Shot
 
 Bonsly @ Custap Berry
-Level: 15
+Level: 16
 Ability: Sturdy
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Head Smash
 - Wood Hammer
 
 Phantump @ Lum Berry
-Level: 15
+Level: 16
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Leech Seed
 - Curse
@@ -726,7 +726,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 === TRAINER_FUECOCO ===
 Name: Fuecoco
 Class: Leader
-Pic: Hiker
+Pic: Fuecoco
 Gender: Male
 Music: Male
 Double Battle: Yes
@@ -734,7 +734,7 @@ AI: Smart Trainer
 
 Fuecoco @ Eviolite  
 Ability: Unaware  
-Level: 24  
+Level: 20
 Tera Type: Fire  
 EVs: 224 HP / 40 SpA / 240 SpD  
 Calm Nature  
@@ -746,8 +746,7 @@ IVs: 0 Atk
 
 Totodile @ Expert Belt  
 Ability: Sheer Force  
-Level: 20  
-Tera Type: Water  
+Level: 20   
 EVs: 236 HP / 236 Atk / 32 SpD  
 Adamant Nature  
 - Crunch  
@@ -758,7 +757,6 @@ Adamant Nature
 Grookey @ Assault Vest  
 Ability: Grassy Surge  
 Level: 20  
-Tera Type: Grass  
 EVs: 236 HP / 236 Def / 36 SpD  
 Impish Nature  
 - Fake Out  
@@ -769,7 +767,6 @@ Impish Nature
 Sandile @ Bright Powder  
 Ability: Intimidate  
 Level: 20  
-Tera Type: Ground  
 EVs: 236 HP / 20 Atk / 236 SpD / 16 Spe  
 Careful Nature  
 - Crunch  
@@ -780,7 +777,6 @@ Careful Nature
 Axew @ Berry Juice  
 Ability: Mold Breaker  
 Level: 20  
-Tera Type: Dragon  
 EVs: 4 HP / 248 Atk / 16 SpD / 240 Spe  
 Adamant Nature  
 - Dragon Dance  
@@ -790,8 +786,7 @@ Adamant Nature
 
 Gible @ Rocky Helmet  
 Ability: Rough Skin  
-Level: 20  
-Tera Type: Dragon  
+Level: 20 
 EVs: 232 HP / 36 Atk / 236 Def  
 Impish Nature  
 - Dragon Tail  
