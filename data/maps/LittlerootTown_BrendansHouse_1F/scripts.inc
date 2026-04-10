@@ -645,222 +645,224 @@ PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
 # 323 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	.string "He lives right next door, so you should\n"
 # 324 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "go over and introduce yourself.$"
+	.string "go over and introduce yourself.\p"
 # 325 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "Don't forget these!$"
 # 326 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_SeeYouHoney:
+
 # 327 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "MOM: See you, honey!$"
+PlayersHouse_1F_Text_SeeYouHoney:
 # 328 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "MOM: See you, honey!$"
 # 329 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_DidYouMeetProfBirch:
+
 # 330 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "MOM: Did you introduce yourself to\n"
+PlayersHouse_1F_Text_DidYouMeetProfBirch:
 # 331 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "PROF. BIRCH?$"
+	.string "MOM: Did you introduce yourself to\n"
 # 332 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "PROF. BIRCH?$"
 # 333 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_YouShouldRestABit:
+
 # 334 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "MOM: How are you doing, {PLAYER}?\n"
+PlayersHouse_1F_Text_YouShouldRestABit:
 # 335 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "You look a little tired.\p"
+	.string "MOM: How are you doing, {PLAYER}?\n"
 # 336 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "I think you should rest a bit.$"
+	.string "You look a little tired.\p"
 # 337 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "I think you should rest a bit.$"
 # 338 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_TakeCareHoney:
+
 # 339 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "MOM: Take care, honey!$"
+PlayersHouse_1F_Text_TakeCareHoney:
 # 340 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "MOM: Take care, honey!$"
 # 341 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom:
+
 # 342 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "MOM: Oh? Did DAD give you that BADGE?\p"
+PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom:
 # 343 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "Then here's something from your MOM!$"
+	.string "MOM: Oh? Did DAD give you that BADGE?\p"
 # 344 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "Then here's something from your MOM!$"
 # 345 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_DontPushYourselfTooHard:
+
 # 346 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "Don't push yourself too hard, dear.\n"
+PlayersHouse_1F_Text_DontPushYourselfTooHard:
 # 347 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "You can always come home.\p"
+	.string "Don't push yourself too hard, dear.\n"
 # 348 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "Go for it, honey!$"
+	.string "You can always come home.\p"
 # 349 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "Go for it, honey!$"
 # 350 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_IsThatAPokenav:
+
 # 351 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "MOM: What is that, honey? A POKéNAV?\n"
+PlayersHouse_1F_Text_IsThatAPokenav:
 # 352 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "Someone from DEVON gave it to you?\p"
+	.string "MOM: What is that, honey? A POKéNAV?\n"
 # 353 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "Well, honey, how about registering\n"
+	.string "Someone from DEVON gave it to you?\p"
 # 354 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "your mom?\p"
+	.string "Well, honey, how about registering\n"
 # 355 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "… … …$"
+	.string "your mom?\p"
 # 356 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "… … …$"
 # 357 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_RegisteredMom:
+
 # 358 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "Registered MOM\n"
+PlayersHouse_1F_Text_RegisteredMom:
 # 359 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "in the POKéNAV.$"
+	.string "Registered MOM\n"
 # 360 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "in the POKéNAV.$"
 # 361 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_Vigoroth1:
+
 # 362 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "Fugiiiiih!$"
+PlayersHouse_1F_Text_Vigoroth1:
 # 363 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "Fugiiiiih!$"
 # 364 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_Vigoroth2:
+
 # 365 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "Huggoh, uggo uggo…$"
+PlayersHouse_1F_Text_Vigoroth2:
 # 366 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "Huggoh, uggo uggo…$"
 # 367 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_ReportFromPetalburgGym:
+
 # 368 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "INTERVIEWER: …We brought you this\n"
+PlayersHouse_1F_Text_ReportFromPetalburgGym:
 # 369 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "report from in front of PETALBURG GYM.$"
+	.string "INTERVIEWER: …We brought you this\n"
 # 370 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "report from in front of PETALBURG GYM.$"
 # 371 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_TheresAMovieOnTV:
+
 # 372 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "There is a movie on TV.\p"
+PlayersHouse_1F_Text_TheresAMovieOnTV:
 # 373 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "Two men are dancing on a big piano\n"
+	.string "There is a movie on TV.\p"
 # 374 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "keyboard.\p"
+	.string "Two men are dancing on a big piano\n"
 # 375 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "Better get going!$"
+	.string "keyboard.\p"
 # 376 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "Better get going!$"
 # 377 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_RunningShoesManual:
+
 # 378 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "It's the instruction booklet for the\n"
+PlayersHouse_1F_Text_RunningShoesManual:
 # 379 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "RUNNING SHOES.\p"
+	.string "It's the instruction booklet for the\n"
 # 380 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "“Press the B Button to run while\n"
+	.string "RUNNING SHOES.\p"
 # 381 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "wearing your RUNNING SHOES.\p"
+	.string "“Press the B Button to run while\n"
 # 382 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "“Lace up your RUNNING SHOES and hit\n"
+	.string "wearing your RUNNING SHOES.\p"
 # 383 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "the road running!”$"
+	.string "“Lace up your RUNNING SHOES and hit\n"
 # 384 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "the road running!”$"
 # 385 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
+
 # 386 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "DAD: Hm?\p"
+PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 # 387 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "Hey, it's {PLAYER}!\p"
+	.string "DAD: Hm?\p"
 # 388 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "It's been a while since I saw you,\n"
+	.string "Hey, it's {PLAYER}!\p"
 # 389 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "but you look…stronger, somehow.\p"
+	.string "It's been a while since I saw you,\n"
 # 390 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "That's the impression I get.\n"
+	.string "but you look…stronger, somehow.\p"
 # 391 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "But your old man hasn't given up yet!\p"
+	.string "That's the impression I get.\n"
 # 392 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "Oh, yes, I have something for you.\n"
+	.string "But your old man hasn't given up yet!\p"
 # 393 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "This came to you from someone named\l"
+	.string "Oh, yes, I have something for you.\n"
 # 394 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "MR. BRINEY.$"
+	.string "This came to you from someone named\l"
 # 395 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "MR. BRINEY.$"
 # 396 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_PortsInSlateportLilycove:
+
 # 397 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "DAD: Hm, a TICKET for a ferry?\p"
+PlayersHouse_1F_Text_PortsInSlateportLilycove:
 # 398 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "If I recall, there are ferry ports in\n"
+	.string "DAD: Hm, a TICKET for a ferry?\p"
 # 399 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "SLATEPORT and LILYCOVE.$"
+	.string "If I recall, there are ferry ports in\n"
 # 400 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "SLATEPORT and LILYCOVE.$"
 # 401 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_BetterGetBackToGym:
+
 # 402 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "I'd better get back to PETALBURG GYM.\p"
+PlayersHouse_1F_Text_BetterGetBackToGym:
 # 403 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "MOM, thanks for looking after the house\n"
+	.string "I'd better get back to PETALBURG GYM.\p"
 # 404 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "while I'm away.$"
+	.string "MOM, thanks for looking after the house\n"
 # 405 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "while I'm away.$"
 # 406 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_DadShouldStayLonger:
+
 # 407 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "MOM: That DAD of yours…\p"
+PlayersHouse_1F_Text_DadShouldStayLonger:
 # 408 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "He comes home for the first time in a\n"
+	.string "MOM: That DAD of yours…\p"
 # 409 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "while, but all he talks about is POKéMON.\p"
+	.string "He comes home for the first time in a\n"
 # 410 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "He should relax and stay a little longer.$"
+	.string "while, but all he talks about is POKéMON.\p"
 # 411 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "He should relax and stay a little longer.$"
 # 412 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_IsThatABreakingStory:
+
 # 413 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "MOM: Is that a breaking news story?$"
+PlayersHouse_1F_Text_IsThatABreakingStory:
 # 414 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "MOM: Is that a breaking news story?$"
 # 415 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
+
 # 416 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "We bring you this emergency\n"
+PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
 # 417 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "news flash!\p"
+	.string "We bring you this emergency\n"
 # 418 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "In various HOENN locales, there have\n"
+	.string "news flash!\p"
 # 419 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "been reports of a BZZT…colored\l"
+	.string "In various HOENN locales, there have\n"
 # 420 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "POKéMON in flight.\p"
+	.string "been reports of a BZZT…colored\l"
 # 421 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "The identity of this POKéMON is\n"
+	.string "POKéMON in flight.\p"
 # 422 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "currently unknown.\p"
+	.string "The identity of this POKéMON is\n"
 # 423 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "We now return you to the regular\n"
+	.string "currently unknown.\p"
 # 424 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "movie program.$"
+	.string "We now return you to the regular\n"
 # 425 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-
+	.string "movie program.$"
 # 426 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_WhatColorDidTheySay:
-# 427 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "MOM: {PLAYER}, did you catch that?\p"
-# 428 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "What color did the announcer say\n"
-# 429 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "that POKéMON was?$"
-# 430 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 
+# 427 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+PlayersHouse_1F_Text_WhatColorDidTheySay:
+# 428 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+	.string "MOM: {PLAYER}, did you catch that?\p"
+# 429 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+	.string "What color did the announcer say\n"
+# 430 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+	.string "that POKéMON was?$"
 # 431 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-PlayersHouse_1F_Text_StillUnknownPokemon:
+
 # 432 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	.string "MOM: Well, isn't that something!\n"
+PlayersHouse_1F_Text_StillUnknownPokemon:
 # 433 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+	.string "MOM: Well, isn't that something!\n"
+# 434 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	.string "There are still unknown POKéMON.$"
