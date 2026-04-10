@@ -467,6 +467,177 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Bite
 - Fake Tears
 
+=== TRAINER_JOSE ===
+Name: JOSE
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+
+Tarountula @ Focus Sash
+Level: 15
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Sticky Web
+- Bug Bite
+- Assurance
+
+Nymble
+Level: 15
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Bug Bite
+- Bite
+- Double Kick
+
+Spinarak
+Level: 16
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Poison Jab
+- Bug Bite
+- Bite
+- String Shot
+
+=== TRAINER_JOEY ===
+Name: Joey
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+
+Aipom @ Silk Scarf
+Level: 15
+Ability: Technician
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Fake Out
+- Double Hit
+- U-Turn
+- Sand Attack
+
+Shinx @ Oran Berry
+Level: 15
+Ability: Static
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Thunder Wave
+- Thunder Shock
+- Bite
+
+Mienfoo @ Muscle Band
+Level: 16
+Ability: Inner Focus
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Force Palm
+- Rock Tomb
+- U-Turn
+
+=== TRAINER_KAREN ===
+Name: Karen
+Class: School Kid
+Pic: School Kid F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Smart Trainer
+
+Snover @ Occa Berry
+Level: 13
+Ability: Snow Warning
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Blizzard
+- Giga Drain
+- Ice Shard
+
+Glaceon @ Bright Powder
+Level: 15
+Ability: Snow Cloak
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Double Team
+- Icy Wind
+- Bite
+- Charm
+
+
+=== TRAINER_DEVAN ===
+Name : Kevin
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+
+Dwebble @ Silver Powder
+Ability: Weak Armor
+Level: 16
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Smack Down
+- Bug Bite
+- Protect
+- Slash
+
+Numel @ Passho Berry
+Ability: Simple
+Level: 16
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Protect
+- Flame Charge
+- Bulldoze
+- Stomp
+
+=== TRAINER_CLARK ===
+Name : Clark
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+
+Sandile @ Soft Sand
+Level: 16
+Ability: Intimidate
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Rock Tomb
+- Dig
+- Snarl
+
+Rockruff
+Level: 16
+Ability: Vital Spirit
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Sand Attack
+- Rock Tomb
+- Howl
+- Bite
+
+=== TRAINER_JOHNSON ===
+Name : Johnson
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+
+Growlithe @ Oran Berry
+Level: 15
+Ability: Intimidate
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Howl
+- Flame Charge
+- Growl
+- Bite
+
+Taillow @ Flame Orb
+Level: 15
+Ability: Guts
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Protect
+- Wing Attack
+- Quick Attack
+
 /* RUSTBORO GYM */
 
 === TRAINER_JOSH ===

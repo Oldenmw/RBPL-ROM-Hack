@@ -1,3 +1,25 @@
+script RustboroCity_EventScript_Fuecoco {
+	if (flag(FLAG_RECEIVED_EVIOLITE)) {
+		msgbox(RustboroCity_Text_FuecocoPostBattle)
+	}
+	else {
+		trainerbattle_single(TRAINER_FUECOCO, RustboroCity_Text_FuecocoIntro, RustboroCity_Text_FuecocoDefeated, RustboroCity_EventScript_GiveEviolite)
+	}
+	end
+}
+
+script RustboroCity_EventScript_GiveEviolite {
+	giveitem(ITEM_EVIOLITE)
+	if (var(!VAR_RESULT)) {
+		goto(Common_EventScript_BagIsFull)
+	}
+	else {
+		setflag(FLAG_RECEIVED_EVIOLITE)
+	}
+	release
+	end
+}
+
 raw `
 RustboroCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, RustboroCity_OnTransition
@@ -232,19 +254,6 @@ RustboroCity_EventScript_LittleGirl::
 	msgbox RustboroCity_Text_PokemonChangeShape, MSGBOX_DEFAULT
 	applymovement LOCALID_RUSTBORO_LITTLE_GIRL, Common_Movement_FaceOriginalDirection
 	waitmovement 0
-	release
-	end
-
-RustboroCity_EventScript_Fuecoco::
-	trainerbattle_single TRAINER_FUECOCO, RustboroCity_Text_FuecocoIntro, RustboroCity_Text_FuecocoDefeated
-	goto_if_unset FLAG_RECEIVED_EVIOLITE, RustboroCity_EventScript_GiveEviolite
-	msgbox RustboroCity_Text_FuecocoPostBattle, MSGBOX_AUTOCLOSE
-	End
-
-RustboroCity_EventScript_GiveEviolite::
-	giveitem ITEM_EVIOLITE
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_EVIOLITE
 	release
 	end
 

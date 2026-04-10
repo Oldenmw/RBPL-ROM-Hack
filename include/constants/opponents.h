@@ -19,6 +19,12 @@
 #define TRAINER_JULIA                       12
 #define TRAINER_TIM_AND_TAM                 13
 #define TRAINER_WALLY_PETALBURG             14
+#define TRAINER_JOSE                        15
+#define TRAINER_JOEY                        16
+#define TRAINER_KAREN                       17
+#define TRAINER_DEVAN                       18
+#define TRAINER_CLARK                       19
+#define TRAINER_JOHNSON                     20
 
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 3 additional trainers before trainer flag space overflows
@@ -317,7 +323,6 @@
 #define TRAINER_JERRY_3                     277
 #define TRAINER_JERRY_4                     278
 #define TRAINER_JERRY_5                     279
-#define TRAINER_KAREN_1                     280
 #define TRAINER_GEORGIA                     281
 #define TRAINER_KAREN_2                     282
 #define TRAINER_KAREN_3                     283
@@ -356,7 +361,6 @@
 #define TRAINER_SHELBY_4                    316
 #define TRAINER_SHELBY_5                    317
 #define TRAINER_CALVIN_1                    318
-#define TRAINER_JOEY                        322
 #define TRAINER_BEN                         323
 #define TRAINER_QUINCY                      324
 #define TRAINER_KATELYNN                    325
@@ -650,7 +654,6 @@
 #define TRAINER_CRISSY                      614
 #define TRAINER_RICK                        615
 #define TRAINER_LYLE                        616
-#define TRAINER_JOSE                        617
 #define TRAINER_DOUG                        618
 #define TRAINER_GREG                        619
 #define TRAINER_KENT                        620
@@ -664,7 +667,6 @@
 #define TRAINER_LENNY                       628
 #define TRAINER_LUCAS_1                     629
 #define TRAINER_ALAN                        630
-#define TRAINER_CLARK                       631
 #define TRAINER_ERIC                        632
 #define TRAINER_LUCAS_2                     633
 #define TRAINER_MIKE_1                      634
@@ -785,8 +787,6 @@
 #define TRAINER_ALIX                        750
 #define TRAINER_HELENE                      751
 #define TRAINER_MARLENE                     752
-#define TRAINER_DEVAN                       753
-#define TRAINER_JOHNSON                     754
 #define TRAINER_MELINA                      755
 #define TRAINER_BRANDI                      756
 #define TRAINER_AISHA                       757

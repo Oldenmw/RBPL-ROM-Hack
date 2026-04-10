@@ -95,7 +95,7 @@ script PetalburgCity_Gym_EndWallyBattle {
 			"and be the strongest trainer in the world.\n"
 			"Thank you {PLAYER}!$")
 	closemessage
-	goto PetalburgCity_Gym_WallyLeaveGym
+	goto(PetalburgCity_Gym_WallyLeaveGym)
 	end
 }
 
