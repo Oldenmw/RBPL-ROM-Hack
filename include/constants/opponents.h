@@ -18,6 +18,7 @@
 #define TRAINER_FUECOCO                     11
 #define TRAINER_JULIA                       12
 #define TRAINER_TIM_AND_TAM                 13
+#define TRAINER_WALLY_PETALBURG             14
 
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 3 additional trainers before trainer flag space overflows

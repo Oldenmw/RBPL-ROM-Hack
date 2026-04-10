@@ -169,6 +169,40 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Gust
 - Confusion
 
+=== TRAINER_WALLY_PETALBURG ===
+Name: Wally
+Class: Rival
+Pic: Wally
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+
+Roselia @ Black Sludge
+Level: 11
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Stun Spore
+- Toxic Spikes
+- Mega Drain
+- Leech Seed
+
+Ralts (M) @ Wise Glasses
+Level: 12
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Double Team
+- Confuse Ray
+- Draining Kiss
+- Confusion
+
+Marill @ Sitrus Berry
+Level: 11
+Ability: Huge Power
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Aqua Jet
+- Charm
+- Body Slam
+- Bounce
+
 === TRAINER_BILLY ===
 Name: Billy
 Class: Youngster

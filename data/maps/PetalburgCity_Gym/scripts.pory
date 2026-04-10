@@ -1,9 +1,120 @@
 script MoveToBattle {
 	lock
 	switch (var(VAR_0x8008)) {
-		case 0:
-			
+		case 1: // South
+			applymovement(LOCALID_PLAYER, moves(
+				face_left
+				walk_left * 2
+				face_right
+			))
+			waitmovement(0)
+		case 0: // North
+			applymovement(LOCALID_PLAYER, moves(
+				face_left
+				walk_left * 2
+				face_down
+				walk_down * 2
+				face_right
+			))
+			waitmovement(0)
+		case 3: // West
+			applymovement(LOCALID_PLAYER, moves (
+				face_left
+				walk_left
+				face_down
+				walk_down
+				Face_right
+			))
+			waitmovement(0)
+		case 2: // East
+			applymovement(LOCALID_PLAYER, moves (
+				face_down
+				walk_down
+				face_left
+				walk_left * 3
+				face_right
+			))
+			waitmovement(0)
 	}
+	release
+	goto(PetalburgCity_Gym_StartWallyBattle)
+	end
+}
+
+script WallyMoveToBattle {
+	lock
+	switch (var(VAR_0x8008)) {
+		case 1: // South
+			applymovement(LOCALID_PETALBURG_GYM_WALLY, moves(
+				face_down
+				walk_down
+				face_right
+				walk_right
+				face_left
+			))
+			waitmovement(0)
+		default: //All others
+			applymovement(LOCALID_PETALBURG_GYM_WALLY, moves(
+				face_right
+				walk_right * 2
+				face_left
+			))
+			waitmovement(0)
+	}
+	release
+	goto(MoveToBattle)
+	end
+}
+
+script PetalburgCity_Gym_StartWallyBattle {
+	trainerbattle_single(TRAINER_WALLY_PETALBURG, PetalburgCity_Gym_Text_WallyIntro, PetalburgCity_Gym_Text_WallyOutro, PetalburgCity_Gym_EndWallyBattle)
+	end
+}
+
+text PetalburgCity_Gym_Text_WallyIntro {
+	"Alright, {PLAYER}.\n"
+	"Show me what you got!$"
+}
+
+text PetalburgCity_Gym_Text_WallyOutro {
+	"I guess theory means nothing\n"
+	"if I can't put it into practice.$"
+}
+
+script PetalburgCity_Gym_EndWallyBattle {
+	lock
+	msgbox("WALLY: That was exhilirating!")
+	applymovement(LOCALID_PLAYER, moves(face_up))
+	applymovement(LOCALID_PETALBURG_GYM_WALLY, moves(face_up))
+	msgbox("DAD: {PLAYER}, you handled yourself well.\n"
+			"You too, Wally. Both of you should be proud.\p"
+			"Now go to RUSTBORO CITY, through the forest.\n"
+			"Challenge Th3e and earn his badge.\n"
+			"Make me proud, {PLAYER}.\p"
+			"WALLY: I'm going to prove my parents wrong\n"
+			"and be the strongest trainer in the world.\n"
+			"Thank you {PLAYER}!$")
+	closemessage
+	goto PetalburgCity_Gym_WallyLeaveGym
+	end
+}
+
+script PetalburgCity_Gym_WallyLeaveGym {
+	applymovement(LOCALID_PETALBURG_GYM_WALLY, moves(
+		face_left
+		walk_left * 2
+		face_down
+		walk_down * 3
+	))
+	removeobject(LOCALID_PETALBURG_GYM_WALLY)
+	setflag(FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM)
+	setflag(FLAG_HIDE_PETALBURG_CITY_WALLY)
+	setflag(FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL)
+	special(InitBirchState)
+	setvar(VAR_PETALBURG_GYM_STATE, 2)
+	setvar(VAR_PETALBURG_CITY_STATE, 3)
+	releaseall
+	end
 }
 
 raw `
@@ -181,21 +292,7 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_WallyFacePlayer
 	msgbox PetalburgCity_Gym_Text_WouldYouReallyComeWithMe, MSGBOX_DEFAULT
 	closemessage
-	call_if_eq VAR_0x8008, 0, PetalburgCity_Gym_EventScript_ExitGymWithWallySouth
-	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_ExitGymWithWallyNorth
-	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_ExitGymWithWallyWest
-	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_ExitGymWithWallyEast
-	removeobject LOCALID_PETALBURG_GYM_WALLY
-	setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM
-	setvar VAR_PETALBURG_GYM_STATE, 1
-	setvar VAR_PETALBURG_CITY_STATE, 2
-	clearflag FLAG_HIDE_PETALBURG_CITY_WALLY
-	clearflag FLAG_HIDE_PETALBURG_GYM_WALLY
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL
-	special InitBirchState
-	warp MAP_PETALBURG_CITY, 15, 8
-	waitstate
-	release
+	goto WallyMoveToBattle
 	end
 
 PetalburgCity_Gym_EventScript_WallyArriveSouth::
@@ -1167,7 +1264,7 @@ PetalburgCity_Gym_Text_DadOhYoureWallyRight:
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "WALLY: I've been studying for years,\n"
-	.string "but my parents never let me have\n"
+	.string "but my parents never let me have\l"
 	.string "a pokemon until now.\p"
 	.string "I'm going to prove to them that\n"
 	.string "I can be a real trainer!$"
@@ -1182,11 +1279,12 @@ PetalburgCity_Gym_Text_DadPlayerGoWithWally:
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
 	.string "WALLY, why don't you battle {PLAYER}?\n"
-	.string "It should be a good first test of your skill."
+	.string "It should be a good first test\l" 
+	.string "of your skill.$"
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
 	.string "WALLY: Alright, my first official battle!\n"
-	.string "I've been studying for years, I know\n"
+	.string "I've been studying for years, I know\l"
 	.string "everything there is to know about Pokemon!$"
 
 PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
