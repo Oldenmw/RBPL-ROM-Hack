@@ -1,20 +1,28 @@
 script LittlerootTown_EventScript_Meowth {
 	msgbox("Meowth!")
+	closemessage
+	release
 	end
 }
 
 script LittlerootTown_EventScript_Growlithe {
 	msgbox("Growlithe!")
+	closemessage
+	release
 	end
 }
 
 script LittlerootTown_EventScript_Pichu {
 	msgbox("Pi-Pichu!")
+	closemessage
+	release
 	end
 }
 
 script LittlerootTown_EventScript_Pidgey {
 	msgbox("Pidgey!")
+	closemessage
+	release
 	end
 }
 

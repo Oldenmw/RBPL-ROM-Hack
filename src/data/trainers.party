@@ -803,10 +803,18 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Turtwig
-Level: 7
+Level: 9
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Pidgey
+Level: 8
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Elekid
+Level: 8
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
@@ -858,11 +866,19 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer
 
 Fennekin
-Level: 7
+Level: 9
 Ability: Magician
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Pidgey
+Level: 8
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Smoochum
+Level: 8
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
@@ -914,10 +930,18 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Squirtle
-Level: 7
+Level: 9
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Pidgey
+Level: 8
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Magby
+Level: 8
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_TORCHIC ===
@@ -969,10 +993,18 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Turtwig
-Level: 7
+Level: 9
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Pidgey
+Level: 8
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Elekid
+Level: 8
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 === TRAINER_MAY_ROUTE_110_MUDKIP ===
@@ -1024,11 +1056,19 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Fennekin
-Level: 7
+Level: 9
 Ability: Magician
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Pidgey
+Level: 8
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Smoochum
+Level: 8
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 === TRAINER_MAY_ROUTE_110_TREECKO ===
@@ -1080,10 +1120,18 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Squirtle
-Level: 7
+Level: 9
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Pidgey
+Level: 8
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Magby
+Level: 8
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
