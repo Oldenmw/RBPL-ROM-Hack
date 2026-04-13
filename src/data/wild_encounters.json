@@ -36627,7 +36627,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_TOGEPI"
+                "species": "SPECIES_CHINGLING"
               },
               {
                 "min_level": 5,
@@ -36635,14 +36635,14 @@
                 "species": "SPECIES_TOXEL"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_BONSLY"
+                "min_level": 7,
+                "max_level": 10,
+                "species": "SPECIES_BULBASAUR"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_CHINGLING"
+                "min_level": 7,
+                "max_level": 10,
+                "species": "SPECIES_CHIKORITA"
               }
             ]
           }

@@ -12,6 +12,9 @@
 #include "field_message_box.h"
 
 #include "dexnav.h"
+#include "ui_birch_case.h"
+#include "task.h"
+#include "field_weather.h"
 
 #define RAM_SCRIPT_MAGIC 51
 
@@ -693,4 +696,16 @@ void SetWalkingIntoSignVars(void)
 void GetObjectEventTrainerRangeFromTemplate(void)
 {
     gSpecialVar_Result = gMapHeader.events->objectEvents[gSpecialVar_LastTalked - 1].trainerRange_berryTreeId;
+}
+
+void StartNewPokeballCaseUI(void)
+{
+    FadeScreen(FADE_TO_BLACK, 0);
+    CreateTask(Task_OpenBirchCase, 0);
+}
+
+void StartNewPokeballCaseUIForBirchBattle(void)
+{
+    FadeScreen(FADE_TO_BLACK, 0);
+    CreateTask(Task_OpenBirchCaseGotoBattle, 0);
 }

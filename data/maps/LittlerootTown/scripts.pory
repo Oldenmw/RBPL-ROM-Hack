@@ -1,3 +1,23 @@
+script LittlerootTown_EventScript_Meowth {
+	msgbox("Meowth!")
+	end
+}
+
+script LittlerootTown_EventScript_Growlithe {
+	msgbox("Growlithe!")
+	end
+}
+
+script LittlerootTown_EventScript_Pichu {
+	msgbox("Pi-Pichu!")
+	end
+}
+
+script LittlerootTown_EventScript_Pidgey {
+	msgbox("Pidgey!")
+	end
+}
+
 raw `
 LittlerootTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_OnTransition

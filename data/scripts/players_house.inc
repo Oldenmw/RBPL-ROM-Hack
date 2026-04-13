@@ -170,7 +170,7 @@ PlayersHouse_1F_EventScript_PetalburgGymReportMale::
 	setflag FLAG_RECEIVED_RUNNING_SHOES
 	closemessage
 	setflag FLAG_SYS_B_DASH
-	setvar VAR_LITTLEROOT_TOWN_STATE, 4
+	setvar VAR_LITTLEROOT_TOWN_STATE, 0
 	setvar VAR_TEMP_1, 1
 	applymovement VAR_0x8005, PlayersHouse_1F_Movement_MomReturnToSeatMale
 	waitmovement 0

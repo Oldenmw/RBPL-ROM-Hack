@@ -805,7 +805,7 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Treecko
+Turtwig
 Level: 7
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
@@ -860,9 +860,9 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Torchic
+Fennekin
 Level: 7
-Ability: Speed Boost
+Ability: Magician
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
@@ -916,7 +916,7 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Mudkip
+Squirtle
 Level: 7
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
@@ -971,7 +971,7 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Treecko
+Turtwig
 Level: 7
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
@@ -1026,9 +1026,9 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Torchic
+Fennekin
 Level: 7
-Ability: Speed Boost
+Ability: Magician
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 === TRAINER_MAY_ROUTE_110_TREECKO ===
@@ -1082,7 +1082,7 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Mudkip
+Squirtle
 Level: 7
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 

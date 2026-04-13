@@ -2213,7 +2213,7 @@
 #define FLAG_HIDE_MAUVILLE_CITY_WATTSON                             0
 #define FLAG_HIDE_MAUVILLE_GYM_WATTSON                              0
 #define FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS                        0
-#define FLAG_UNKNOWN_0x393                                          0 // Set, however has no purpose.
+#define FLAG_HIDE_LITTLEROOT_TOWN_POKEMON                           0 // Set, however has no purpose.
 #define FLAG_HIDE_MT_PYRE_SUMMIT_ARCHIE                             0
 #define FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA                          0
 #define FLAG_HIDE_BATTLE_TOWER_REPORTER                             0
