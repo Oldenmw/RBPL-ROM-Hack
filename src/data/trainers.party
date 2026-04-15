@@ -996,15 +996,15 @@ Double Battle: No
 AI: Smart Trainer
 
 Turtwig
-Level: 9
+Level: 7
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 Pidgey
-Level: 8
+Level: 6
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
-Elekid
-Level: 8
+Magby
+Level: 6
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 === TRAINER_MAY_ROUTE_110_MUDKIP ===
@@ -1059,16 +1059,15 @@ Double Battle: No
 AI: Smart Trainer
 
 Fennekin
-Level: 9
-Ability: Magician
+Level: 7
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 Pidgey
-Level: 8
+Level: 6
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
-Smoochum
-Level: 8
+Elekid
+Level: 6
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 === TRAINER_MAY_ROUTE_110_TREECKO ===
@@ -1123,15 +1122,15 @@ Double Battle: No
 AI: Smart Trainer
 
 Squirtle
-Level: 9
+Level: 7
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 Pidgey
-Level: 8
+Level: 6
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
-Magby
-Level: 8
+Smoochum
+Level: 6
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
