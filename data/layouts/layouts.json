@@ -9415,6 +9415,17 @@
       "border_filepath": "data/layouts/ShallowsCave/border.bin",
       "blockdata_filepath": "data/layouts/ShallowsCave/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LITTLEROOT_TOWN_INTRO_HOUSE",
+      "name": "LittlerootTown_IntroHouse_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/LittlerootTown_IntroHouse/border.bin",
+      "blockdata_filepath": "data/layouts/LittlerootTown_IntroHouse/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

@@ -1,13 +1,26 @@
-raw `
-LittlerootTown_BrendansHouse_2F_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_BrendansHouse_2F_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LittlerootTown_BrendansHouse_2F_OnWarp
-	.byte 0
+mapscripts LittlerootTown_BrendansHouse_2F_MapScripts {
+	MAP_SCRIPT_ON_TRANSITION: LittlerootTown_BrendansHouse_2F_OnTransition
+}
 
-LittlerootTown_BrendansHouse_2F_OnTransition:
+script LittlerootTown_BrendansHouse_2F_EventScript_SetClockStaircase {
+	lockall
+	msgbox("Oh! You forgot to set the clock!")
+	closemessage
+	applymovement(LOCALID_PLAYER, moves(
+		face_down
+		walk_down
+	))
+	waitmovement(0)
+	releaseall
+	end
+}
+
+raw `
+LittlerootTown_BrendansHouse_2F_OnTransition::
 	call_if_lt VAR_LITTLEROOT_INTRO_STATE, 7, LittlerootTown_PlayersHouse_2F_EventScript_Vars
 	call_if_lt VAR_LITTLEROOT_RIVAL_STATE, 2, LittlerootTown_BrendansHouse_2F_EventScript_CheckSetReadyToMeetBrendan
 	call_if_ge VAR_LITTLEROOT_RIVAL_STATE, 3, LittlerootTown_BrendansHouse_2F_EventScript_CheckShouldUpdateBrendanPos
+	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 5, PlayersHouse_2F_EventScript_BlockStairsUntilClockIsSet
 	call SecretBase_EventScript_SetDecorationFlags
 	setvar VAR_SECRET_BASE_INITIALIZED, 0
 	end
@@ -37,10 +50,6 @@ LittlerootTown_BrendansHouse_2F_EventScript_CheckSetReadyToMeetBrendan::
 LittlerootTown_BrendansHouse_2F_EventScript_SetReadyToMeetBrendan::
 	setvar VAR_LITTLEROOT_RIVAL_STATE, 2
 	return
-
-LittlerootTown_BrendansHouse_2F_OnWarp:
-	map_script_2 VAR_SECRET_BASE_INITIALIZED, 0, LittlerootTown_BrendansHouse_2F_EventScript_CheckInitDecor
-	.2byte 0
 
 LittlerootTown_BrendansHouse_2F_EventScript_CheckInitDecor::
 	checkplayergender

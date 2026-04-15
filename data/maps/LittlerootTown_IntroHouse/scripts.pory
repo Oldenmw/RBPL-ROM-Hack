@@ -1,0 +1,78 @@
+mapscripts LittlerootTown_IntroHouse_MapScripts {
+	MAP_SCRIPT_ON_TRANSITION: LittlerootTown_IntroHouse_OnTransition
+    MAP_SCRIPT_ON_FRAME_TABLE [
+		VAR_TEMP_0, 1: LittlerootTown_IntroHouse_Script_PorygonIntroSegment
+	]
+}
+
+script LittlerootTown_IntroHouse_OnTransition {
+    setvar(VAR_TEMP_0, 1)
+}
+
+script LittlerootTown_IntroHouse_Script_PorygonIntroSegment {
+	lockall
+	addobject(LOCALID_PORYGON_INTRO)
+	applymovement(LOCALID_PLAYER, moves(face_up))
+	waitmovement(0)
+	applymovement(LOCALID_PORYGON_INTRO, moves(
+		face_down
+		walk_down * 2
+		face_right
+		walk_right * 2
+		face_down
+	))
+	waitmovement(0)
+	turnobject(LOCALID_PLAYER, DIR_EAST)
+	waitmovement(0)
+	applymovement(LOCALID_PORYGON_INTRO, moves(
+		walk_down * 3
+		face_left
+	))
+	waitmovement(0)
+	turnobject(LOCALID_PLAYER, DIR_SOUTH)
+	waitmovement(0)
+	applymovement(LOCALID_PORYGON_INTRO, moves(
+		walk_left * 4
+		face_up
+	))
+	waitmovement(0)
+	turnobject(LOCALID_PLAYER, DIR_WEST)
+	waitmovement(0)
+	applymovement(LOCALID_PORYGON_INTRO, moves(
+		walk_up * 3
+		face_left
+	))
+	waitmovement(0)
+	turnobject(LOCALID_PLAYER, DIR_NORTH)
+	waitmovement(0)
+	applymovement(LOCALID_PORYGON_INTRO, moves(
+		walk_right * 2
+		face_down
+	))
+	waitmovement(0)
+	msgbox("Porygon-gon. Pory...")
+	closemessage
+	msgbox("Porygon is dragging you towards the TV!")
+	closemessage
+	applymovement(LOCALID_PORYGON_INTRO, moves(
+		face_up
+		walk_up * 2
+	))
+	applymovement(LOCALID_PLAYER, moves(
+		face_up
+		walk_up * 2
+	))
+	waitmovement(0)
+	removeobject(LOCALID_PORYGON_INTRO)
+	applymovement(LOCALID_PLAYER, moves(
+		walk_up
+	))
+	setflag(FLAG_HIDE_PORYGON_INTRO)
+	setvar(VAR_LITTLEROOT_INTRO_STATE, 6)
+	fadescreenspeed(FADE_TO_WHITE, -1) // fadescreenspeed?
+	warp(MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F, 1, 4)
+	fadescreenspeed(FADE_FROM_WHITE, 26)
+	waitstate
+	releaseall
+	end
+}

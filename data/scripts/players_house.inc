@@ -3,7 +3,7 @@ PlayersHouse_2F_EventScript_BlockStairsUntilClockIsSet::
 	return
 
 LittlerootTown_PlayersHouse_2F_EventScript_Vars::
-	setvar VAR_LITTLEROOT_INTRO_STATE, 6
+	setvar VAR_LITTLEROOT_INTRO_STATE, 5
 	return
 
 PlayersHouse_1F_EventScript_EnterHouseMovingIn::
@@ -166,7 +166,7 @@ PlayersHouse_1F_EventScript_PetalburgGymReportMale::
 	waitmovement 0
 	msgbox PlayersHouse_1F_Text_ItsOverWeMissedHim, MSGBOX_DEFAULT
 	msgbox PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor, MSGBOX_DEFAULT
-	message LittlerootTown_Text_SwitchShoesWithRunningShoes
+	msgbox LittlerootTown_Text_SwitchShoesWithRunningShoes, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_RUNNING_SHOES
 	closemessage
 	setflag FLAG_SYS_B_DASH

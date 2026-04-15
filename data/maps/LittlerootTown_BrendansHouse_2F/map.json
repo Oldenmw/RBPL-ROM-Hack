@@ -234,7 +234,17 @@
       "dest_warp_id": "2"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 1,
+      "elevation": 0,
+      "var": "VAR_LITTLEROOT_INTRO_STATE",
+      "var_value": "5",
+      "script": "LittlerootTown_BrendansHouse_2F_EventScript_SetClockStaircase"
+    }
+  ],
   "bg_events": [
     {
       "type": "sign",

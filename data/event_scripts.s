@@ -1760,3 +1760,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/OldaleTown_House3/scripts.inc"
 
 	.include "data/maps/ShallowsCave/scripts.inc"
+
+	.include "data/maps/LittlerootTown_IntroHouse/scripts.inc"
