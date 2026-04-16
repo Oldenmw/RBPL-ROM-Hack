@@ -1,3 +1,60 @@
+script LittlerootTown_Mansion_Pichu {
+	lock
+	faceplayer
+	msgbox("Pichu! Pi!")
+	closemessage
+	release
+	end
+}
+
+script LittlerootTown_Mansion_Skitty {
+	lock
+	faceplayer
+	msgbox("Skit!")
+	closemessage
+	release
+	end
+}
+
+script LittlerootTown_Mansion_Sprigatito {
+	lock
+	faceplayer
+	msgbox("Gatito!")
+	closemessage
+	release
+	end
+}
+
+script LittlerootTown_Mansion_Freya {
+	lock
+	faceplayer
+	msgbox("How about a battle, just for fun?", MSGBOX_YESNO)
+	if (var(VAR_RESULT) == 1 && var(VAR_ROUTE101_STATE) == 3) {
+		trainerbattle_single(TRAINER_FREYA, LittlerootTown_Mansion_Text_Freya_Intro, LittlerootTown_Mansion_Text_Freya_Defeat)
+		msgbox("That was a blast.")
+		closemessage
+	}
+	elif (var(VAR_RESULT) == 0) {
+		msgbox("Oh well. Could have been fun.")
+		closemessage
+	}
+	else {
+		msgbox("Hey, you don't have any Pokemon!\n
+				Go get one then come back here.")
+		closemessage
+	}
+	release
+	end
+}
+
+text LittlerootTown_Mansion_Text_Freya_Intro {
+	"Good luck!"
+}
+
+text LittlerootTown_Mansion_Text_Freya_Defeat {
+	"What a great battle!"
+}
+
 raw `
 LittlerootTown_Mansion_MapScripts::
 	.byte 0

@@ -283,6 +283,9 @@ const u16 gTrainerPalette_RubySapphireMay[] = INCBIN_U16("graphics/trainers/pale
 const u32 gTrainerFrontPic_Fuecoco[] = INCBIN_U32("graphics/trainers/front_pics/fuecoco.4bpp.smol");
 const u16 gTrainerPalette_Fuecoco[] = INCBIN_U16("graphics/trainers/front_pics/fuecoco.gbapal");
 
+const u32 gTrainerFrontPic_Freya[] = INCBIN_U32("graphics/trainers/front_pics/freya.4bpp.smol");
+const u16 gTrainerPalette_Freya[] = INCBIN_U16("graphics/trainers/front_pics/freya.gbapal");
+
 const u32 gTrainerFrontPic_YoungsterFrlg[] = INCBIN_U32("graphics/trainers/front_pics/youngster_frlg.4bpp.smol");
 const u16 gTrainerPalette_YoungsterFrlg[] = INCBIN_U16("graphics/trainers/palettes/youngster_frlg.gbapal");
 
@@ -595,6 +598,7 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_FRONT_RS_BRENDAN, gTrainerFrontPic_RubySapphireBrendan, gTrainerPalette_RubySapphireBrendan),
     TRAINER_SPRITE(TRAINER_PIC_FRONT_RS_MAY, gTrainerFrontPic_RubySapphireMay, gTrainerPalette_RubySapphireMay),
     TRAINER_SPRITE(TRAINER_PIC_FRONT_FUECOCO, gTrainerFrontPic_Fuecoco, gTrainerPalette_Fuecoco),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_FREYA, gTrainerFrontPic_Freya, gTrainerPalette_Freya),
     TRAINER_SPRITE(TRAINER_PIC_FRONT_YOUNGSTER_FRLG, gTrainerFrontPic_YoungsterFrlg, gTrainerPalette_YoungsterFrlg),
     TRAINER_SPRITE(TRAINER_PIC_FRONT_BUG_CATCHER_FRLG, gTrainerFrontPic_BugCatcherFrlg, gTrainerPalette_BugCatcherFrlg),
     TRAINER_SPRITE(TRAINER_PIC_FRONT_LASS_FRLG, gTrainerFrontPic_LassFrlg, gTrainerPalette_LassFrlg),

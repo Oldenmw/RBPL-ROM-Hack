@@ -1,13 +1,13 @@
 Route102_Text_DustIntro:
 	.string "I'm the best trainer in this\n"
-	.string "entire region!\l"
+	.string "entire region!\p"
 	.string "You have to battle me!$"
 
 Route102_Text_DustDefeated:
-	.string "...$"
+	.string "I didn't want to win anyway.$"
 
 Route102_Text_DustPostBattle:
-	.string "I didn't want to win anyway.$"
+	.string "...$"
 
 Route102_Text_LeonardoIntro:
 	.string "Tempted by that item, are you?\n"

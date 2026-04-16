@@ -1203,6 +1203,8 @@ struct SaveBlock1
     u8 rivalName[PLAYER_NAME_LENGTH + 1];
     struct DaycareMon route5DayCareMon;
 #endif
+    /*0x3???*/ u16 trainersDefeated;
+    /*0x3???*/ u16 berryTreeGrowthQueue[4]; //track trees to grow
     // sizeof: 0x3???
 };
 

@@ -1,3 +1,13 @@
+script PetalburgCity_EventScript_HouseSign {
+	lock
+	msgbox("The door is locked. You see a\n
+			Piece of paper taped to the door:\p
+			NO INTRUDERS!$")
+	closemessage
+	release
+	end
+}
+
 raw `
 PetalburgCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, PetalburgCity_OnTransition

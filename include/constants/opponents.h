@@ -25,6 +25,7 @@
 #define TRAINER_DEVAN                       18
 #define TRAINER_CLARK                       19
 #define TRAINER_JOHNSON                     20
+#define TRAINER_FREYA                       21
 
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 3 additional trainers before trainer flag space overflows

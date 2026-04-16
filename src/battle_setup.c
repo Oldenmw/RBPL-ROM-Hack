@@ -55,6 +55,7 @@
 #include "constants/trainer_hill.h"
 #include "constants/weather.h"
 #include "fishing.h"
+#include "berry_growth_tracker.h"
 
 enum TransitionType
 {
@@ -1436,6 +1437,9 @@ static void HandleBattleVariantEndParty(void)
 static void CB2_EndTrainerBattle(void)
 {
     HandleBattleVariantEndParty();
+    if (gBattleOutcome == B_OUTCOME_WON && (gBattleTypeFlags & BATTLE_TYPE_TRAINER)) {
+        IncrementTrainerDefeatCounter();
+    }
 
     gIsDebugBattle = FALSE;
     if (FollowerNPCIsBattlePartner())

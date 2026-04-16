@@ -15,6 +15,7 @@
 #include "ui_birch_case.h"
 #include "task.h"
 #include "field_weather.h"
+#include "berry_growth_tracker.h"
 
 #define RAM_SCRIPT_MAGIC 51
 
@@ -377,6 +378,7 @@ const u8 *MapHeaderCheckScriptTable(u8 tag)
 
 void RunOnLoadMapScript(void)
 {
+    ApplyQueuedBerryGrowth();
     MapHeaderRunScriptType(MAP_SCRIPT_ON_LOAD);
 }
 

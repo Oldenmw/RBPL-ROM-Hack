@@ -81,6 +81,61 @@ Gender: Male
 Music: Male
 Double Battle: No
 
+=== TRAINER_FREYA ===
+Name: Freya
+Class: Leader
+Pic: Freya
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+
+Dragonite @ Lum Berry
+Level: 85
+Ability: Multiscale
+- Dragon Dance
+- Extreme Speed
+- Earthquake
+- Dual Wingbeat
+
+Meowscarada @ Choice Band
+Ability: Protean
+Level: 85
+- U-Turn
+- Flower Trick
+- Triple Axel
+- Knock Off
+
+Venusaur @ Black Sludge
+Level: 85
+- Leech Seed
+- Synthesis
+- Giga Drain
+- Sludge Bomb
+
+Arcanine-Hisui @ Choice Scarf
+Ability: Rock Head
+Level: 85
+- Close Combat
+- Head Smash
+- Flare Blitz
+- Extreme Speed
+
+Slowbro @ Leftovers
+Ability: Regenerator
+Level: 85
+- Slack Off
+- Future Sight
+- Scald
+- Thunder Wave
+
+Gengar @ Gengarite
+Level: 85
+- Nasty Plot
+- Shadow Ball
+- Sludge Wave
+- Focus Blast
+
 === TRAINER_DUST ===
 Name: Dust
 Class: Youngster
@@ -91,7 +146,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Zigzagoon
-Level: 2
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fake Tears
 

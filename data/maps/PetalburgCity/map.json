@@ -325,11 +325,19 @@
     },
     {
       "type": "hidden_item",
-      "x": 11,
-      "y": 29,
+      "x": 26,
+      "y": 9,
       "elevation": 3,
-      "item": "ITEM_RARE_CANDY",
-      "flag": "FLAG_HIDDEN_ITEM_PETALBURG_CITY_RARE_CANDY"
+      "item": "ITEM_WIDE_LENS",
+      "flag": "FLAG_HIDDEN_ITEM_PETALBURG_CITY_WIDE_LENS"
+    },
+    {
+      "type": "sign",
+      "x": 20,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PetalburgCity_EventScript_HouseSign"
     }
   ]
 }
