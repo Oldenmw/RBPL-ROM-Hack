@@ -9426,6 +9426,16 @@
       "border_filepath": "data/layouts/LittlerootTown_IntroHouse/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_IntroHouse/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_CANNARA_DESERT",
+      "name": "CannaraDesert_Layout",
+      "width": 40,
+      "height": 60,
+      "primary_tileset": "gTileset_Desert",
+      "secondary_tileset": "gTileset_DesertPyramidExterior",
+      "border_filepath": "data/layouts/CannaraDesert/border.bin",
+      "blockdata_filepath": "data/layouts/CannaraDesert/map.bin"
     }
   ]
 }

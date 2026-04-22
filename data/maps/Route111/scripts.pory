@@ -1,3 +1,24 @@
+script Route111_EventScript_GlitchWarp {
+	msgbox("What just happened?!")
+	closemessage
+	applymovement(LOCALID_PLAYER, moves(
+		face_up
+		walk_up
+	))
+	waitmovement(0)
+	delay(2)
+	applymovement(LOCALID_PLAYER, moves(
+		face_down
+		face_right
+		walk_right
+		face_down
+	))
+	waitmovement(0)
+	setvar(VAR_GLITCH_WARPS, 2)
+	release
+	end
+}
+
 raw `
 Route111_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, Route111_OnLoad
@@ -103,6 +124,7 @@ Route111_EventScript_HidePlayerForMirageTower::
 
 Route111_OnFrame:
 	map_script_2 VAR_MIRAGE_TOWER_STATE, 1, Route111_EventScript_MirageTowerDisappear
+	map_script_2 VAR_GLITCH_WARPS, 1, Route111_EventScript_GlitchWarp
 	.2byte 0
 
 Route111_EventScript_MirageTowerDisappear::

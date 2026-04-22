@@ -419,3 +419,11 @@ const u16 gMetatiles_Prairie[] = INCBIN_U16("data/tilesets/secondary/prairie/met
 const u16 gMetatileAttributes_Prairie[] = INCBIN_U16("data/tilesets/secondary/prairie/metatile_attributes.bin");
 const u16 gMetatiles_Swamp[] = INCBIN_U16("data/tilesets/secondary/swamp/metatiles.bin");
 const u16 gMetatileAttributes_Swamp[] = INCBIN_U16("data/tilesets/secondary/swamp/metatile_attributes.bin");
+const u16 gMetatiles_Desert[] = INCBIN_U16("data/tilesets/primary/desert/metatiles.bin");
+const u16 gMetatileAttributes_Desert[] = INCBIN_U16("data/tilesets/primary/desert/metatile_attributes.bin");
+
+const u16 gMetatiles_DesertPyramidExterior[] = INCBIN_U16("data/tilesets/secondary/desert_pyramid_exterior/metatiles.bin");
+const u16 gMetatileAttributes_DesertPyramidExterior[] = INCBIN_U16("data/tilesets/secondary/desert_pyramid_exterior/metatile_attributes.bin");
+
+const u16 gMetatiles_DesertVillage[] = INCBIN_U16("data/tilesets/secondary/desert_village/metatiles.bin");
+const u16 gMetatileAttributes_DesertVillage[] = INCBIN_U16("data/tilesets/secondary/desert_village/metatile_attributes.bin");

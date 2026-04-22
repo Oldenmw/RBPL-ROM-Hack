@@ -476,7 +476,8 @@
     "TerraCave_End",
     "AlteringCave",
     "MeteorFalls_StevensCave",
-    "ShallowsCave"
+    "ShallowsCave",
+    "CannaraDesert"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

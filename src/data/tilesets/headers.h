@@ -1563,3 +1563,35 @@ const struct Tileset gTileset_HallOfFame =
 };
 
 #endif // IS_FRLG
+const struct Tileset gTileset_Desert =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Desert,
+    .palettes = gTilesetPalettes_Desert,
+    .metatiles = gMetatiles_Desert,
+    .metatileAttributes = gMetatileAttributes_Desert,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_DesertPyramidExterior =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_DesertPyramidExterior,
+    .palettes = gTilesetPalettes_DesertPyramidExterior,
+    .metatiles = gMetatiles_DesertPyramidExterior,
+    .metatileAttributes = gMetatileAttributes_DesertPyramidExterior,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_DesertVillage =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_DesertVillage,
+    .palettes = gTilesetPalettes_DesertVillage,
+    .metatiles = gMetatiles_DesertVillage,
+    .metatileAttributes = gMetatileAttributes_DesertVillage,
+    .callback = NULL,
+};
